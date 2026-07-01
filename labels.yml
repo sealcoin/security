@@ -1,0 +1,66 @@
+- name: category/platform
+  color: "1d76db"
+  description: SEALCOIN Platform or API
+- name: category/posy-smartcontract
+  color: "5319e7"
+  description: Proof-of-Security smart contracts
+- name: category/bridge-smartcontract
+  color: "5319e7"
+  description: Bridge smart contracts
+- name: category/website
+  color: "0e8a16"
+  description: Public websites
+- name: category/infrastructure
+  color: "0e8a16"
+  description: Infrastructure or deployment
+- name: severity/informational
+  color: "d4c5f9"
+  description: Informational severity
+- name: severity/low
+  color: "c2e0c6"
+  description: Low severity
+- name: severity/medium
+  color: "fbca04"
+  description: Medium severity
+- name: severity/high
+  color: "f66a0a"
+  description: High severity
+- name: severity/critical
+  color: "b60205"
+  description: Critical severity
+- name: status/new
+  color: "ededed"
+  description: Newly submitted
+- name: status/triaging
+  color: "bfdadc"
+  description: Under triage
+- name: status/accepted
+  color: "0e8a16"
+  description: Accepted vulnerability
+- name: status/duplicate
+  color: "cccccc"
+  description: Duplicate report
+- name: status/known
+  color: "cccccc"
+  description: Already known issue
+- name: status/out-of-scope
+  color: "ffffff"
+  description: Out of scope
+- name: status/fixed
+  color: "0e8a16"
+  description: Fixed
+- name: status/rewarded
+  color: "0e8a16"
+  description: Reward paid or processed
+- name: reward/pending
+  color: "fbca04"
+  description: Reward decision pending
+- name: reward/paid
+  color: "0e8a16"
+  description: Reward paid
+- name: type/question
+  color: "d876e3"
+  description: General question
+- name: type/non-sensitive
+  color: "d876e3"
+  description: Non-sensitive report
