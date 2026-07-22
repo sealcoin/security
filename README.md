@@ -1,38 +1,30 @@
-# SEALCOIN Security Responsible Disclosure Program
+# SEALCOIN Security Research Program
 
-This repository is the public entry point for reporting security vulnerabilities affecting the SEALCOIN ecosystem.
+This repository is the public home for responsible disclosure of security vulnerabilities affecting the SEALCOIN ecosystem.
 
-Please **do not disclose exploitable vulnerabilities through public GitHub issues**.
+Do not report exploitable vulnerabilities in public GitHub issues. Use GitHub Private Vulnerability Reporting by selecting **Report a vulnerability** in this repository.
 
-Use GitHub's **Report a vulnerability** feature to submit confidential reports through GitHub Private Vulnerability Reporting.
+## Quick Links
 
-## Program scope
+| Need | Link |
+|---|---|
+| Report a vulnerability | GitHub **Report a vulnerability** |
+| Scope | [docs/scope.md](docs/scope.md) |
+| Rewards | [docs/reward-policy.md](docs/reward-policy.md) |
+| Severity methodology | [docs/severity-methodology.md](docs/severity-methodology.md) |
+| Disclosure policy | [docs/disclosure-policy.md](docs/disclosure-policy.md) |
+| Legal terms | [docs/legal.md](docs/legal.md) |
+| FAQ | [docs/faq.md](docs/faq.md) |
+| Hall of Fame | [GitHub Wiki](https://github.com/sealcoin/security/wiki/Hall-of-Fame) |
 
-The initial scope covers:
+## What Is In Scope?
 
-- SEALCOIN Platform
-- SEALCOIN APIs
-- SEALCOIN Agent integrations where explicitly published by SEALCOIN
-- Proof-of-Security smart contracts
-- Bridge smart contracts
-- Public SEALCOIN and QAIT websites
+The initial Security Research Program covers the SEALCOIN Platform, Public APIs, SEALCOIN Agent, PoSy smart contracts, Bridge smart contracts, SEALCOIN-operated infrastructure, and public SEALCOIN websites where applicable.
 
-See [`docs/scope.md`](docs/scope.md) for the detailed scope.
+See [Program Scope](docs/scope.md) for the asset table and out-of-scope exclusions.
 
-## Rewards
+## What Happens After Submission?
 
-Eligible vulnerabilities may receive discretionary rewards denominated in USD equivalent and paid in QAIT tokens.
+SEALCOIN will acknowledge valid private reports, triage impact and reproducibility, coordinate remediation, decide reward eligibility, and agree on disclosure timing. Expected response times are listed in [SECURITY.md](SECURITY.md).
 
-See [`docs/reward-policy.md`](docs/reward-policy.md).
-
-## Responsible disclosure rules
-
-Reports must be submitted responsibly, confidentially, and without harming users, systems, or third-party services.
-
-See [`SECURITY.md`](SECURITY.md) and [`docs/legal.md`](docs/legal.md).
-
-## Private payment communication
-
-After a vulnerability is accepted and a reward decision has been made, payment details may be exchanged through a private Telegram channel designated by the SEALCOIN team.
-
-Researchers should never post Hedera account IDs, personal information, exploit details, or sensitive material in public issues.
+Eligible findings may receive discretionary rewards in QAIT tokens based on a USD-equivalent decision. Rewards are not guaranteed.

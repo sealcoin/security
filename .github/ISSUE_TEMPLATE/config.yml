@@ -2,4 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Report a vulnerability confidentially
     url: https://github.com/SEALCOIN/sealcoin-security/security/advisories/new
-    about: Use this link for exploitable vulnerabilities. Do not create a public issue.
+    about: Use GitHub Private Vulnerability Reporting for exploitable vulnerabilities. Do not create a public issue.
+  - name: Read the Security Policy
+    url: https://github.com/SEALCOIN/sealcoin-security/blob/main/SECURITY.md
+    about: Review reporting rules, response times, Safe Harbor, and disclosure expectations.

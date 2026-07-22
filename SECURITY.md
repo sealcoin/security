@@ -1,61 +1,56 @@
 # Security Policy
 
-## Reporting a vulnerability
+## Responsible Disclosure
 
-Please do not create a public GitHub issue for exploitable vulnerabilities.
+SEALCOIN welcomes good-faith security research that helps protect the SEALCOIN Platform, Public APIs, SEALCOIN Agent, PoSy, Bridge, and SEALCOIN-operated infrastructure.
 
-To report a vulnerability confidentially, use GitHub Private Vulnerability Reporting by selecting **Report a vulnerability** in this repository.
+Do not create public GitHub issues for exploitable vulnerabilities.
 
-If Private Vulnerability Reporting is unavailable, contact the SEALCOIN team through the official security contact published on the SEALCOIN website and request a confidential reporting channel.
+## How to Report
 
-## What to include
+Use GitHub Private Vulnerability Reporting by selecting **Report a vulnerability** in this repository. If that option is unavailable, contact the official SEALCOIN security contact published on the SEALCOIN website and request a confidential channel.
 
-A complete report should include:
+## What to Include
 
-- A clear summary of the vulnerability
-- The affected component
-- The affected environment, network, contract, endpoint, or version
+A useful report includes:
+
+- Summary and affected asset
+- Environment, network, contract address, endpoint, version, or commit
+- Impact and affected users, funds, data, or permissions
 - Step-by-step reproduction instructions
-- Proof of Concept, screenshots, transaction hashes, logs, or code where appropriate
-- A description of the security impact
-- Any limitations, assumptions, or prerequisites
-- Suggested remediation, if available
+- Proof of Concept, transaction hashes, logs, screenshots, or code
+- Preconditions, limitations, and testing boundaries
+- Suggested fix, if known
+- CVSS score or vector, optional
+- Disclosure statement confirming the report is private and unpublished
 
-Reports that cannot be reproduced or that do not contain sufficient technical detail may be considered ineligible for a reward.
+Reports with only scanner output, no reproducible impact, or insufficient detail may be closed as informational or not eligible.
 
-## Responsible disclosure requirements
+## Response Times
 
-By submitting a report, you agree to:
+| Stage | Target |
+|---|---:|
+| Initial acknowledgement | 2 business days |
+| Initial triage decision | 5 business days |
+| Severity and reward decision for accepted reports | 15 business days |
+| Status updates during remediation | At least every 30 days |
 
-- Act in good faith
-- Avoid accessing, modifying, deleting, or exfiltrating user data
-- Avoid disrupting service availability
-- Avoid social engineering, phishing, spam, physical attacks, or coercion
-- Avoid public disclosure before SEALCOIN has had a reasonable opportunity to investigate and remediate
-- Comply with applicable laws and regulations
-- Stop testing and notify SEALCOIN immediately if you encounter sensitive data or unintended access
+Complex smart contract, Bridge, compliance, or third-party dependency issues may take longer. SEALCOIN will communicate material delays.
 
-## Eligibility
+## Disclosure Timeline
 
-A vulnerability may be eligible if it:
+SEALCOIN follows coordinated disclosure. Public disclosure should happen only after remediation, mitigation, or written agreement with SEALCOIN.
 
-- Affects an in-scope asset
-- Is original and not already known to SEALCOIN
-- Is not a duplicate of a previously submitted report
-- Is reproducible
-- Has a credible security impact
-- Was discovered without violating the responsible disclosure requirements
+The default disclosure window is 90 days from acknowledgement. SEALCOIN may request an extension for complex fixes, active exploitation risk, coordinated third-party remediation, or regulatory constraints.
 
-SEALCOIN may classify a report as duplicate, known, out of scope, not applicable, informational, or not eligible at its sole discretion.
+See [Disclosure Policy](docs/disclosure-policy.md).
 
-## Disclosure timeline
+## Safe Harbor
 
-SEALCOIN follows coordinated vulnerability disclosure. Public disclosure should occur only after remediation, mitigation, or mutual agreement between the researcher and SEALCOIN.
+SEALCOIN will not pursue legal action against researchers for good-faith testing that follows this policy, stays within scope, avoids harm, and is reported promptly and confidentially.
 
-A default disclosure window of 90 days may be used, but this period may be adjusted depending on severity, complexity, third-party dependencies, or regulatory considerations.
+Safe Harbor does not apply to activity that accesses, modifies, deletes, or exfiltrates user data; disrupts availability; targets third parties; uses social engineering, phishing, spam, coercion, malware, or physical attacks; or violates applicable law.
 
-## Reward payment
+## Rewards
 
-Rewards, where granted, are discretionary and may be paid in QAIT tokens based on a USD-equivalent reward decision.
-
-The researcher may be asked to provide a Hedera account ID through a private Telegram communication channel designated by the SEALCOIN team. Additional information may be requested where required for legal, regulatory, sanctions, tax, or compliance reasons.
+Rewards are discretionary, may be paid in QAIT tokens, and are subject to legal, sanctions, AML, tax, and regulatory review. See [Reward Policy](docs/reward-policy.md) and [Legal Terms](docs/legal.md).

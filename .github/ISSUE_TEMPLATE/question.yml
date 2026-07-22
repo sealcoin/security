@@ -1,5 +1,5 @@
 name: General security question
-about: Ask a non-sensitive question about the security program. Do not disclose vulnerabilities here.
+about: Ask a non-sensitive question about the Security Research Program.
 title: "[Question]: "
 labels: ["type/question", "status/new"]
 body:
@@ -14,3 +14,10 @@ body:
       description: Ask your non-sensitive question here.
     validations:
       required: true
+  - type: checkboxes
+    id: disclosure
+    attributes:
+      label: Disclosure statement
+      options:
+        - label: This issue does not contain vulnerability details, exploit steps, secrets, or personal data.
+          required: true

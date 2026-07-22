@@ -1,10 +1,16 @@
 - name: category/platform
   color: "1d76db"
-  description: SEALCOIN Platform or API
-- name: category/posy-smartcontract
+  description: SEALCOIN Platform
+- name: category/api
+  color: "1d76db"
+  description: Public APIs
+- name: category/agent
+  color: "1d76db"
+  description: SEALCOIN Agent
+- name: category/posy
   color: "5319e7"
-  description: Proof-of-Security smart contracts
-- name: category/bridge-smartcontract
+  description: PoSy smart contracts
+- name: category/bridge
   color: "5319e7"
   description: Bridge smart contracts
 - name: category/website
@@ -12,7 +18,7 @@
   description: Public websites
 - name: category/infrastructure
   color: "0e8a16"
-  description: Infrastructure or deployment
+  description: SEALCOIN-operated infrastructure
 - name: severity/informational
   color: "d4c5f9"
   description: Informational severity
@@ -63,4 +69,4 @@
   description: General question
 - name: type/non-sensitive
   color: "d876e3"
-  description: Non-sensitive report
+  description: Non-sensitive documentation or program report

@@ -1,48 +1,48 @@
 # Legal and Regulatory Terms
 
-This document provides the legal and regulatory principles applicable to the SEALCOIN Security Responsible Disclosure Program.
+This document summarizes the legal and regulatory terms for the SEALCOIN Security Research Program. It is intended to be understandable, not exhaustive legal advice.
 
-## No guaranteed reward
+## Safe Harbor
 
-Submission of a vulnerability report does not create an entitlement to payment. Rewards are discretionary and may be refused, reduced, delayed, or adjusted by SEALCOIN.
+SEALCOIN will not pursue legal action against researchers for good-faith testing that follows this program, stays within scope, avoids harm, and is reported promptly and confidentially.
 
-## No authorization to break the law
+Safe Harbor does not cover unlawful activity, third-party attacks, social engineering, phishing, spam, coercion, malware, persistence, destructive testing, privacy violations, data exfiltration, or service disruption.
 
-This program does not authorize illegal activity. Researchers are responsible for complying with all applicable laws and regulations in their jurisdiction and in any jurisdiction affected by their testing.
+## No Guaranteed Reward
 
-## Safe testing boundaries
+Submitting a report does not create an entitlement to payment. Rewards are discretionary and may be refused, reduced, delayed, or adjusted by SEALCOIN.
+
+## Confidentiality
+
+Researchers must keep vulnerability details confidential until SEALCOIN has remediated or mitigated the issue, or until SEALCOIN authorizes disclosure in writing.
+
+## Testing Boundaries
 
 Researchers must not:
 
 - Access, copy, modify, delete, or exfiltrate user data
 - Interrupt, degrade, or deny service availability
+- Target assets outside the published scope
 - Perform social engineering, phishing, spam, physical attacks, or coercion
-- Use malware or persistence mechanisms
+- Use malware, persistence mechanisms, or destructive tooling
 - Access accounts, wallets, systems, or data that do not belong to them
-- Conduct testing that affects third-party systems without authorization
 
-If sensitive information is encountered, the researcher must stop testing immediately and report the situation confidentially.
+If sensitive information is encountered, stop testing immediately and report the situation confidentially.
 
-## Confidentiality
+## Compliance, Sanctions, AML, and MiCA
 
-Researchers must keep vulnerability details confidential until SEALCOIN has remediated or mitigated the vulnerability, or until SEALCOIN authorizes disclosure.
+Because rewards may be paid in QAIT tokens, SEALCOIN may apply legal, sanctions, AML, tax, MiCA, token-transfer, or other regulatory checks before processing payment.
 
-## Regulatory compliance
-
-Because rewards may be paid in QAIT tokens, SEALCOIN may be required to apply legal, regulatory, AML, sanctions, tax, or compliance checks before processing payment.
-
-SEALCOIN may request additional information from the researcher where reasonably required to comply with applicable obligations.
-
-No payment will be made where SEALCOIN determines that doing so would breach applicable law, regulation, sanctions restrictions, internal compliance requirements, or token-related regulatory obligations.
+SEALCOIN may request information reasonably required for compliance. No payment will be made where SEALCOIN determines that payment would breach law, regulation, sanctions restrictions, internal compliance requirements, or token-related obligations.
 
 ## Taxes
 
 Researchers are responsible for determining and complying with their own tax obligations arising from any reward.
 
-## No employment or agency relationship
+## No Employment Relationship
 
-Participation in this program does not create an employment, contractor, partnership, agency, or joint venture relationship with SEALCOIN, QAIT Association, or any affiliated entity.
+Participation does not create an employment, contractor, partnership, agency, joint venture, or representative relationship with SEALCOIN, QAIT Association, or any affiliated entity.
 
-## Program changes
+## Program Changes
 
 SEALCOIN may update, suspend, or terminate this program at any time.

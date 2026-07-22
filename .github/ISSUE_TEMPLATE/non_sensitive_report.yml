@@ -1,5 +1,5 @@
 name: Non-sensitive report
-about: Report a non-exploitable, non-sensitive issue with the security program documentation.
+about: Report a non-exploitable issue with the Security Research Program documentation.
 title: "[Non-sensitive]: "
 labels: ["type/non-sensitive", "status/new"]
 body:
@@ -12,16 +12,28 @@ body:
     attributes:
       label: Area
       options:
-        - Documentation
-        - Scope clarification
-        - Reward policy clarification
-        - Legal policy clarification
+        - README
+        - Security policy
+        - Scope
+        - Reward policy
+        - Severity methodology
+        - Disclosure policy
+        - Legal terms
+        - FAQ
         - Other
     validations:
       required: true
   - type: textarea
-    id: description
+    id: summary
     attributes:
-      label: Description
+      label: Summary
+      description: Briefly describe the non-sensitive issue.
     validations:
       required: true
+  - type: textarea
+    id: suggested_change
+    attributes:
+      label: Suggested change
+      description: Optional wording or correction.
+    validations:
+      required: false
