@@ -5,15 +5,24 @@ This internal guide keeps GitHub Private Vulnerability Reporting handling consis
 ## Intake
 
 1. Acknowledge the report within 2 business days.
-2. Apply `status/new` and the most specific `category/*` label.
-3. Confirm the report is private and contains reproduction details.
-4. Ask for missing information once, clearly and specifically.
+2. Confirm the report is private and contains reproduction details.
+3. Ask for missing information once, clearly and specifically.
 
 ## Validation
 
 Check whether the report is in scope, reproducible, original, and security-impacting. Do not run unsafe PoCs against production without owner approval.
 
-Use `status/triaging` while validation is active. If valid, move to `status/accepted`; if not, use `status/duplicate`, `status/known`, or `status/out-of-scope`.
+Assign severity only after exploitability and impact have been validated. SEALCOIN may internally classify reports as Informational, Low, Moderate, High, or Critical. Informational is an internal classification only; GitHub Security Advisories use Low, Moderate, High, and Critical.
+
+Use the native GitHub workflow:
+
+| Lifecycle State | Meaning |
+|---|---|
+| Open private vulnerability report | Received and awaiting initial review |
+| Needs information | Maintainers request specific missing details in comments |
+| Accepted as Draft Security Advisory | Validated vulnerability under remediation |
+| Closed | Duplicate, known issue, out of scope, insufficient detail, or not reproducible |
+| Published | Remediation and coordinated disclosure completed, where applicable |
 
 ## Shared or Affiliated Infrastructure
 
@@ -35,15 +44,9 @@ The first complete, reproducible report is normally the eligible report. Link la
 |---|---|---|
 | Critical | P0 | Immediate owner assignment and mitigation plan |
 | High | P1 | Owner assignment within 2 business days |
-| Medium | P2 | Schedule remediation in normal security backlog |
+| Moderate | P2 | Schedule remediation in normal security backlog |
 | Low | P3 | Fix opportunistically or document acceptance |
 | Informational | P4 | Acknowledge or close |
-
-## Labels
-
-Use one or more category labels, one severity label after validation, and one status label. Add reward labels only after acceptance.
-
-Recommended labels: `category/platform`, `category/api`, `category/agent`, `category/posy`, `category/bridge`, `category/website`, `category/infrastructure`, `severity/critical`, `severity/high`, `severity/medium`, `severity/low`, `severity/informational`, `status/new`, `status/triaging`, `status/accepted`, `status/duplicate`, `status/known`, `status/out-of-scope`, `status/fixed`, `status/rewarded`, `reward/pending`, `reward/paid`.
 
 ## Communication
 
@@ -58,6 +61,6 @@ Keep messages short and specific:
 
 ## Reward Decision
 
-Base rewards on severity, asset criticality, exploitability, report quality, duplicate status, and safe conduct. Record the decision, rationale, USD-equivalent amount, QAIT payment handling, and any legal or compliance blocker.
+Base rewards on severity, asset criticality, exploitability, report quality, duplicate status, and safe conduct. Record the decision, rationale, USD-equivalent amount, QAIT payment handling, and any legal or compliance blocker internally or in the private advisory discussion.
 
 Do not request payment details in public issues.

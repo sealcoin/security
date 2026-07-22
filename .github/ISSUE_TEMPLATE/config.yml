@@ -1,5 +1,0 @@
-blank_issues_enabled: false
-contact_links:
-  - name: Report a vulnerability confidentially
-    url: https://github.com/sealcoin/security/security/advisories/new
-    about: Use GitHub Private Vulnerability Reporting for exploitable vulnerabilities. Do not create a public issue.

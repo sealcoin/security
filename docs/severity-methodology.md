@@ -1,16 +1,20 @@
 # Severity Methodology
 
-SEALCOIN uses CVSS as a reference, then adjusts severity for Web3-specific impact, asset criticality, exploitability, and the affected environment.
+SEALCOIN uses CVSS as a reference for validated vulnerabilities, then adjusts severity for Web3-specific impact, asset criticality, exploitability, and the affected environment.
 
 ## Severity Levels
 
 | Severity | Typical CVSS Range | SEALCOIN Interpretation |
 |---|---:|---|
-| Informational | 0.0 | No direct security impact or best-practice observation |
+| Informational | N/A | No direct actionable security impact, best-practice observation, or non-vulnerability report |
 | Low | 0.1 - 3.9 | Limited impact, constrained exploitability, or low-value asset |
-| Medium | 4.0 - 6.9 | Practical impact requiring conditions or limited privilege |
+| Moderate | 4.0 - 6.9 | Practical impact requiring conditions or limited privilege |
 | High | 7.0 - 8.9 | Significant compromise of users, funds, data, contracts, or infrastructure |
 | Critical | 9.0 - 10.0 | Systemic compromise, fund loss, unauthorized mint/release, account takeover at scale, or privileged infrastructure compromise |
+
+Informational is an internal SEALCOIN report classification only. Informational findings are not scored with CVSS and are not normally published as GitHub Security Advisories.
+
+Accepted vulnerabilities published as GitHub Security Advisories use GitHub's native severity levels: Low, Moderate, High, and Critical.
 
 ## Web3 Adjustments
 
@@ -37,7 +41,7 @@ SEALCOIN may reduce severity when impact is limited to testnet, requires unreali
 | Marketplace | User can modify another user's active order | High |
 | Marketplace | Price display rounding issue with no settlement impact | Low |
 | Wallet | Bypass of transaction confirmation before signing | Critical |
-| Wallet | UI-only wallet address truncation confusion | Low to Medium |
+| Wallet | UI-only wallet address truncation confusion | Low to Moderate |
 | SEALCOIN Platform | Cross-tenant admin access | Critical |
 | SEALCOIN Platform | Reflected XSS in a non-authenticated marketing page | Low |
 | Public APIs | IDOR exposing sensitive user or organization data | High |

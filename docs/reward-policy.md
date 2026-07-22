@@ -10,7 +10,7 @@ Rewards are not guaranteed. Final eligibility and amount are determined by SEALC
 |---|---:|
 | Informational | No reward or recognition only |
 | Low | $50 - $150 |
-| Medium | $150 - $500 |
+| Moderate | $150 - $500 |
 | High | $500 - $2,000 |
 | Critical | $2,000 - $10,000 |
 
@@ -78,17 +78,17 @@ Rewards may be reduced or denied for:
 |---|---|---|---|
 | Authentication bypass | Critical | Eligible | Critical when it enables account takeover or privileged access |
 | Privilege escalation | High to Critical | Eligible | Includes role, organization, admin, and tenant boundary bypass |
-| Broken access control | Medium to Critical | Eligible | Severity depends on data, action, and affected asset |
+| Broken access control | Moderate to Critical | Eligible | Severity depends on data, action, and affected asset |
 | Cross-tenant data access | High to Critical | Eligible | Strong impact on SEALCOIN Platform and Public APIs |
-| Business logic flaw | Medium to Critical | Eligible | Must show concrete impact, not only unexpected behavior |
+| Business logic flaw | Moderate to Critical | Eligible | Must show concrete impact, not only unexpected behavior |
 | Marketplace order manipulation | High to Critical | Eligible | Includes unauthorized order changes, settlement abuse, or price manipulation |
 | Wallet workflow bypass | High to Critical | Eligible | Includes unauthorized transaction approval or signing flow compromise |
-| Sensitive information disclosure | Medium to Critical | Eligible | Depends on sensitivity, scale, and exploitability |
-| Hardcoded secrets | Medium to Critical | Eligible | Eligible when secrets are valid or materially useful |
+| Sensitive information disclosure | Moderate to Critical | Eligible | Depends on sensitivity, scale, and exploitability |
+| Hardcoded secrets | Moderate to Critical | Eligible | Eligible when secrets are valid or materially useful |
 | Exposed private keys | Critical | Eligible | Includes deployer, admin, treasury, signer, or Bridge keys |
-| Directory listing | Informational to Medium | Conditional | Eligible only with sensitive files or exploitable exposure |
-| Debug endpoint exposure | Medium to High | Eligible | Higher when it leaks secrets or enables state changes |
-| Server-side request forgery | Medium to Critical | Eligible | Higher with cloud metadata, internal admin, or credential access |
+| Directory listing | Informational to Moderate | Conditional | Eligible only with sensitive files or exploitable exposure |
+| Debug endpoint exposure | Moderate to High | Eligible | Higher when it leaks secrets or enables state changes |
+| Server-side request forgery | Moderate to Critical | Eligible | Higher with cloud metadata, internal admin, or credential access |
 | Remote code execution | Critical | Eligible | Must be demonstrated safely |
 | SQL/NoSQL injection | High to Critical | Eligible | Depends on data access and write capability |
 | Command injection | Critical | Eligible | Avoid destructive commands in PoC |
@@ -96,19 +96,19 @@ Rewards may be reduced or denied for:
 | CSRF | Low to High | Conditional | Eligible when it performs sensitive state-changing actions |
 | Open redirect | Informational to Low | Usually no | Eligible only as part of account takeover, OAuth abuse, or credible exploit chain |
 | CORS misconfiguration | Low to High | Conditional | Eligible when it exposes authenticated sensitive data or actions |
-| Rate limiting issue | Informational to Medium | Conditional | Eligible only with abuse impact, account takeover support, or resource risk |
+| Rate limiting issue | Informational to Moderate | Conditional | Eligible only with abuse impact, account takeover support, or resource risk |
 | Clickjacking | Informational to Low | Usually no | Eligible only for sensitive actions with realistic user impact |
 | Missing DMARC | Informational | Usually no | May be considered if tied to verified takeover or account impact |
 | Missing CAA | Informational | Usually no | Best-practice issue unless exploitability is demonstrated |
 | Missing security headers | Informational to Low | Usually no | Requires practical exploit path |
-| Subdomain takeover | Medium to High | Eligible | Must prove control without impacting users |
-| Broken link hijacking | Low to Medium | Conditional | Eligible when linked from trusted SEALCOIN properties and exploitable |
+| Subdomain takeover | Moderate to High | Eligible | Must prove control without impacting users |
+| Broken link hijacking | Low to Moderate | Conditional | Eligible when linked from trusted SEALCOIN properties and exploitable |
 | Dependency confusion | High to Critical | Eligible | Must avoid publishing malicious packages or causing execution |
 | CI/CD secret exposure | High to Critical | Eligible | Includes tokens, signing credentials, deploy keys, or release channels |
 | Supply-chain update compromise | High to Critical | Eligible | Includes SEALCOIN Agent or contract tooling update paths |
 | Smart contract reentrancy | High to Critical | Eligible | Critical with fund loss, unauthorized withdrawal, or pool compromise |
 | Smart contract access control flaw | High to Critical | Eligible | Includes unauthorized admin, mint, burn, pause, upgrade, or withdrawal |
-| Smart contract accounting error | Medium to Critical | Eligible | Includes balances, rewards, penalties, and capacity calculations |
+| Smart contract accounting error | Moderate to Critical | Eligible | Includes balances, rewards, penalties, and capacity calculations |
 | Signature verification flaw | High to Critical | Eligible | Includes replay, malleability, domain separation, and signer validation |
 | Flash loan exploit | High to Critical | Eligible | Must show credible economic impact |
 | Oracle manipulation | High to Critical | Eligible | Depends on liquidity, controls, and affected value |
