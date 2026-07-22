@@ -17,7 +17,3 @@ Researchers may also request earlier disclosure after remediation. SEALCOIN will
 ## Public Advisory
 
 SEALCOIN may publish a GitHub Security Advisory or public write-up after a fix is available, users are protected, and disclosure timing is agreed. Advisories may include severity, affected assets, impact, remediation, credit, and timeline.
-
-## Hall of Fame
-
-Researchers may be credited in the [Hall of Fame](https://github.com/sealcoin/security/wiki/Hall-of-Fame) only with their consent. SEALCOIN may decline public credit for reports involving unsafe testing, legal constraints, active exploitation risk, or confidentiality obligations.

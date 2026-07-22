@@ -8,14 +8,13 @@ Do not report exploitable vulnerabilities in public GitHub issues. Use GitHub Pr
 
 | Need | Link |
 |---|---|
-| Report a vulnerability | GitHub **Report a vulnerability** |
+| Report a vulnerability | [Security and quality](https://github.com/sealcoin/security/security) |
 | Scope | [docs/scope.md](docs/scope.md) |
 | Rewards | [docs/reward-policy.md](docs/reward-policy.md) |
 | Severity methodology | [docs/severity-methodology.md](docs/severity-methodology.md) |
 | Disclosure policy | [docs/disclosure-policy.md](docs/disclosure-policy.md) |
-| Legal terms | [docs/legal.md](docs/legal.md) |
 | FAQ | [docs/faq.md](docs/faq.md) |
-| Hall of Fame | [GitHub Wiki](https://github.com/sealcoin/security/wiki/Hall-of-Fame) |
+| Legal terms | [docs/legal.md](docs/legal.md) |
 
 ## What Is In Scope?
 
