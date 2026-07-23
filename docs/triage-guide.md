@@ -4,7 +4,7 @@ This internal guide keeps GitHub Private Vulnerability Reporting handling consis
 
 ## Intake
 
-1. Acknowledge the report within 2 business days.
+1. Aim to acknowledge complete reports within 2 business days.
 2. Confirm the report is private and contains reproduction details.
 3. Ask for missing information once, clearly and specifically.
 
@@ -43,7 +43,7 @@ The first complete, reproducible report is normally the eligible report. Link la
 | Severity | Internal Priority | Target Handling |
 |---|---|---|
 | Critical | P0 | Immediate owner assignment and mitigation plan |
-| High | P1 | Owner assignment within 2 business days |
+| High | P1 | Prioritize owner assignment as soon as practical |
 | Moderate | P2 | Schedule remediation in normal security backlog |
 | Low | P3 | Fix opportunistically or document acceptance |
 | Informational | P4 | Acknowledge or close |
@@ -56,7 +56,7 @@ Keep messages short and specific:
 - State what is being validated
 - Ask for missing reproduction details
 - Share severity and eligibility decisions when ready
-- Provide remediation status at least every 30 days
+- Provide remediation status when there is meaningful progress, or periodically for accepted reports under active remediation
 - Agree on disclosure timing before public release
 
 ## Reward Decision

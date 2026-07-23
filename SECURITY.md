@@ -26,16 +26,16 @@ A useful report includes:
 
 Reports with only scanner output, no reproducible impact, or insufficient detail may be closed as informational or not eligible.
 
-## Response Times
+## Response Timeline Targets
 
 | Stage | Target |
 |---|---:|
-| Initial acknowledgement | 2 business days |
-| Initial triage decision | 5 business days |
-| Severity and reward decision for accepted reports | 15 business days |
-| Status updates during remediation | At least every 30 days |
+| Initial acknowledgement | We aim to acknowledge complete reports within 2 business days |
+| Initial triage | We aim to provide an initial assessment within 5 business days |
+| Severity and reward decision for accepted reports | Communicated once impact, eligibility, and any required review are complete |
+| Status updates during remediation | Provided when there is meaningful progress, or periodically for accepted reports under active remediation |
 
-Complex smart contract, Bridge, compliance, or third-party dependency issues may take longer. SEALCOIN will communicate material delays.
+These targets are not contractual commitments. Timing may vary depending on report complexity, reproducibility, affected systems, smart contract or Bridge dependencies, third-party coordination, remediation effort, legal or compliance review, and internal security priorities.
 
 ## Disclosure Timeline
 
