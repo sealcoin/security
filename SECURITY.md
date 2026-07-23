@@ -8,7 +8,7 @@ Do not create public GitHub issues for exploitable vulnerabilities.
 
 ## How to Report
 
-Use GitHub Private Vulnerability Reporting by selecting **Report a vulnerability** in this repository. If that option is unavailable, contact the official SEALCOIN security contact published on the SEALCOIN website and request a confidential channel.
+Use GitHub Private Vulnerability Reporting by selecting **Report a vulnerability** in this repository.
 
 ## What to Include
 
