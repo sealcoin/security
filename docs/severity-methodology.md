@@ -44,7 +44,7 @@ SEALCOIN may reduce severity when impact is limited to testnet, requires unreali
 | Wallet | UI-only wallet address truncation confusion | Low to Moderate |
 | SEALCOIN Platform | Cross-tenant admin access | Critical |
 | SEALCOIN Platform | Reflected XSS in a non-authenticated marketing page | Low |
-| Public APIs | IDOR exposing sensitive user or organization data | High |
+| SEALCOIN Platform API | IDOR exposing sensitive user or organization data | High |
 | Infrastructure | Valid production deploy key exposed in CI logs | Critical |
 
 Severity is not final until SEALCOIN validates exploitability, affected assets, and business impact.

@@ -79,7 +79,7 @@ Rewards may be reduced or denied for:
 | Authentication bypass | Critical | Eligible | Critical when it enables account takeover or privileged access |
 | Privilege escalation | High to Critical | Eligible | Includes role, organization, admin, and tenant boundary bypass |
 | Broken access control | Moderate to Critical | Eligible | Severity depends on data, action, and affected asset |
-| Cross-tenant data access | High to Critical | Eligible | Strong impact on SEALCOIN Platform and Public APIs |
+| Cross-tenant data access | Moderate to High | Eligible | Strong impact on the SEALCOIN Platform, Platform API, or another explicitly listed asset |
 | Business logic flaw | Moderate to Critical | Eligible | Must show concrete impact, not only unexpected behavior |
 | Marketplace order manipulation | High to Critical | Eligible | Includes unauthorized order changes, settlement abuse, or price manipulation |
 | Wallet workflow bypass | High to Critical | Eligible | Includes unauthorized transaction approval or signing flow compromise |
@@ -105,7 +105,7 @@ Rewards may be reduced or denied for:
 | Broken link hijacking | Low to Moderate | Conditional | Eligible when linked from trusted SEALCOIN properties and exploitable |
 | Dependency confusion | High to Critical | Eligible | Must avoid publishing malicious packages or causing execution |
 | CI/CD secret exposure | High to Critical | Eligible | Includes tokens, signing credentials, deploy keys, or release channels |
-| Supply-chain update compromise | High to Critical | Eligible | Includes SEALCOIN Agent or contract tooling update paths |
+| Supply-chain update compromise | High to Critical | Eligible | Includes contract tooling or other explicitly listed SEALCOIN update paths |
 | Smart contract reentrancy | High to Critical | Eligible | Critical with fund loss, unauthorized withdrawal, or pool compromise |
 | Smart contract access control flaw | High to Critical | Eligible | Includes unauthorized admin, mint, burn, pause, upgrade, or withdrawal |
 | Smart contract accounting error | Moderate to Critical | Eligible | Includes balances, rewards, penalties, and capacity calculations |

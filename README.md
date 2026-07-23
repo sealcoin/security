@@ -18,7 +18,7 @@ Do not report exploitable vulnerabilities in public GitHub issues. Use GitHub Pr
 
 ## What Is In Scope?
 
-The initial Security Research Program covers the SEALCOIN Platform, Public APIs, SEALCOIN Agent, PoSy smart contracts, Bridge smart contracts, SEALCOIN-operated infrastructure, and public SEALCOIN websites where applicable.
+The initial Security Research Program covers the SEALCOIN Platform, Bridge web application, public SEALCOIN and QAIT websites, listed QAIT token and smart contracts, and SEALCOIN-operated infrastructure where applicable. SEALCOIN Agent is not currently public or reward eligible unless later listed in scope.
 
 See [Program Scope](docs/scope.md) for the asset table and out-of-scope exclusions.
 

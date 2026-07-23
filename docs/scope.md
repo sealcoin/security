@@ -6,15 +6,23 @@ This scope defines assets eligible for responsible disclosure review under the S
 
 | Asset | Description | In Scope | Reward Eligible | Comments |
 |---|---|---:|---:|---|
-| SEALCOIN Platform | User, organization, marketplace, wallet, device, and PoSy workflows operated by SEALCOIN | Yes | Yes | Includes authentication, authorization, tenant isolation, business logic, and sensitive data exposure |
-| Public APIs | Internet-accessible APIs published or operated by SEALCOIN | Yes | Yes | Includes API auth, access control, rate-limit bypass with practical impact, and data exposure |
-| SEALCOIN Agent | Agent software, integrations, or update channels explicitly published by SEALCOIN | Yes | Yes | Local-only issues require realistic impact beyond the researcher's own device |
-| PoSy smart contracts | SEALCOIN PoSy contracts on supported testnet or mainnet deployments | Yes | Yes | Includes accounting, rewards, locking, withdrawals, pool administration, signatures, and access control |
-| Bridge smart contracts | Bridge contracts and message verification components controlled by SEALCOIN | Yes | Yes | Includes mint, burn, lock, release, replay, chain validation, and verifier logic |
+| SEALCOIN Platform | `https://platform.sealcoin.ai/` | Yes | Yes | Includes authentication, authorization, tenant isolation, business logic, wallet workflows, and sensitive data exposure |
+| SEALCOIN Platform API | `https://api.platform.sealcoin.ai` | Yes | Yes | Includes API authentication, authorization, access control, rate-limit bypass with practical impact, and data exposure |
+| Bridge web application | `https://bridge.platform.sealcoin.ai/` | Yes | Yes | Includes bridge user flows, transaction preparation, wallet connection, and user consent boundaries |
+| SEALCOIN website | `https://sealcoin.ai/` | Yes | Usually | Reward eligibility requires practical security impact |
+| QAIT website | `https://www.qait.ch/` | Yes | Usually | Reward eligibility requires practical security impact |
+| Spacedrop website | `https://spacedrop.sealcoin.ai/` | Yes | Usually | Reward eligibility requires practical security impact |
+| SEALCOIN Agent | Not publicly available | No | No | Agent issues are eligible only after SEALCOIN publishes an explicit Agent build, integration, or update channel in this scope |
+| QAIT HTS token | `0x0000000000000000000000000000000000992f8e` | Yes | Yes | Hedera Token Service token |
+| QAITHTSConnector | `0x00000000000000000000000000000000009c1fcc` | Yes | Yes | Includes token connector logic, access control, and cross-chain accounting impact |
+| QAITOFT on BSC | `0x4d41A5d412f4Ef44A35b9f53b06DB65edE249493` | Yes | Yes | Includes mint, burn, lock, release, replay, chain validation, and verifier logic |
+| QAITOFT on Base | `0x0c9147701Ea8B0EFDdbe6a0E3950d922227Dd19b` | Yes | Yes | Includes mint, burn, lock, release, replay, chain validation, and verifier logic |
+| QAITOFT on Ethereum | `0x2C9A0895A18c6ba7404E86bC5aEc0518f859181A` | Yes | Yes | Includes mint, burn, lock, release, replay, chain validation, and verifier logic |
+| PoSy smart contract | `0x27d9b4c0ff7d39a07cd45d91a526605f6eb8a5a0` | Yes | Yes | Includes accounting, rewards, locking, withdrawals, pool administration, signatures, and access control |
+| QAITVesting | `0x502bad06e848b239f2cb4be1649acc694d4c46d1` | Yes | Yes | Includes vesting accounting, release logic, authorization, and admin controls |
 | SEALCOIN-operated infrastructure | Cloud, deployment, CI/CD, DNS, storage, and edge services directly operated by SEALCOIN | Yes | Yes | Only systems owned or administered by SEALCOIN are in scope |
-| Public SEALCOIN websites | Official SEALCOIN or QAIT websites and web applications | Yes | Usually | Reward eligibility requires practical security impact |
 | Third-party dependencies | Wallets, exchanges, explorers, RPC providers, SaaS tools, browsers, and infrastructure not controlled by SEALCOIN | No | No | Report these to the relevant owner unless they create direct risk to an in-scope SEALCOIN asset |
-| Public documentation | This repository and public documentation | Yes | Usually no | Documentation issues are welcome but normally not reward eligible |
+| Public documentation | This repository and `https://github.com/sealcoin/public-documentation` | Yes | Usually no | Documentation issues are welcome but normally not reward eligible |
 
 ## Shared and Affiliated Infrastructure
 
@@ -35,11 +43,11 @@ Reports affecting assets of affiliated companies may be forwarded internally to 
 
 - Authentication bypass or account takeover in the SEALCOIN Platform
 - Cross-tenant access to organization data
+- Platform API authorization flaws exposing sensitive data or privileged actions
 - Unauthorized wallet, marketplace, device, or PoSy actions
-- Public API authorization flaws exposing sensitive data or privileged actions
-- SEALCOIN Agent update, signing, or trust-boundary vulnerabilities
 - PoSy accounting errors affecting rewards, penalties, pool capacity, or balances
 - Bridge replay, verifier bypass, domain validation, or unauthorized mint/release flaws
+- Vesting release, accounting, or access-control flaws
 - Exposed production secrets for SEALCOIN-operated systems
 - Subdomain takeover of an official SEALCOIN-controlled domain
 
@@ -63,6 +71,6 @@ The following are out of scope unless they demonstrate concrete impact on an in-
 
 ## Environments
 
-Reports should state whether the issue affects production, staging, testnet, mainnet smart contracts, websites, APIs, or SEALCOIN Agent integrations.
+Reports should state whether the issue affects production, staging, testnet, mainnet smart contracts, websites, APIs, or another explicitly listed asset.
 
 Testing must not disrupt production systems, alter real user data, or affect assets outside this scope.

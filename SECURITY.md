@@ -2,7 +2,7 @@
 
 ## Responsible Disclosure
 
-SEALCOIN welcomes good-faith security research that helps protect the SEALCOIN Platform, Public APIs, SEALCOIN Agent, PoSy, Bridge, and SEALCOIN-operated infrastructure.
+SEALCOIN welcomes good-faith security research that helps protect the SEALCOIN Platform, Bridge, listed QAIT token and smart contracts, public SEALCOIN and QAIT websites, and SEALCOIN-operated infrastructure.
 
 Do not create public GitHub issues for exploitable vulnerabilities.
 
