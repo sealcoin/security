@@ -47,7 +47,7 @@ See [Disclosure Policy](docs/disclosure-policy.md).
 
 ## Safe Harbor
 
-SEALCOIN will not pursue legal action against researchers for good-faith testing that follows this policy, stays within scope, avoids harm, and is reported promptly and confidentially.
+SEALCOIN will not pursue legal action against researchers for good-faith testing that follows this policy, stays within scope, avoids harm, is reported promptly and confidentially, and complies with applicable law.
 
 Safe Harbor does not apply to activity that accesses, modifies, deletes, or exfiltrates user data; disrupts availability; targets third parties; uses social engineering, phishing, spam, coercion, malware, or physical attacks; or violates applicable law.
 
