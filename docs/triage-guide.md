@@ -1,6 +1,6 @@
 # Triage Guide
 
-This internal guide keeps GitHub Private Vulnerability Reporting handling consistent for the SEALCOIN Security Research Program.
+This maintainer guide keeps GitHub Private Vulnerability Reporting handling consistent for the SEALCOIN Security Research Program.
 
 ## Intake
 
@@ -30,7 +30,7 @@ When a report concerns shared corporate infrastructure or an affiliated-company 
 
 1. Identify the legal and technical owner.
 2. Determine whether an explicitly in-scope SEALCOIN asset is directly affected.
-3. Assign the report internally to the relevant SEALCOIN, IT, SEALSQ, or WISeKey owner.
+3. Route the report to the appropriate responsible owner through the private advisory discussion or another confidential channel.
 4. Do not promise a reward before ownership, impact, and program eligibility are confirmed.
 5. Preserve the original submission timestamp in case the issue is later accepted by the appropriate program or entity.
 
