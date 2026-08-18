@@ -8,7 +8,7 @@ Do not report exploitable vulnerabilities in public GitHub issues. Use GitHub Pr
 
 | Need | Link |
 |---|---|
-| Report a vulnerability | [Security and quality](https://github.com/sealcoin/security/security) |
+| Report a vulnerability | [GitHub Private Vulnerability Reporting](https://github.com/sealcoin/security/security/advisories/new) |
 | Scope | [docs/scope.md](docs/scope.md) |
 | Rewards | [docs/reward-policy.md](docs/reward-policy.md) |
 | Severity methodology | [docs/severity-methodology.md](docs/severity-methodology.md) |
